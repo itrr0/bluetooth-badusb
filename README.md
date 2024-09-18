@@ -10,7 +10,7 @@ Thank you Earle Philhower for the arduino-pico core for the rp2040 boards, witho
 
 ## How to install
 ### 1. Hold the BOOTSEL button on your Raspberry Pi Pico W and plug it in to your computer.
-![Alt text](https://projects-static.raspberrypi.org/projects/getting-started-with-the-pico/b3f5d25071fc53deef4a41b31eb1e1fdd1fd75d1/en/images/Pico-bootsel.png " ")
+![Alt text](https://projects-static.raspberrypi.org/projects/get-started-pico-w/102a04c1d3fc3df01dc1b2505bf353f8cbc0bc1a/en/images/bootsel.png " ")
 ### 2. Release the BOOTSEL button and make sure that a storage device with the name RPI-RP2 has been connected. If you don't see a storage device it may be due to faulty drivers or most likely because you're using a cable that doesn't transmit data.
 ![Alt text](https://startingelectronics.org/tutorials/raspberry-PI/easiest-way-to-start-using-a-raspberry-PI-pico/pico-folder-windows.jpg " ")
 ### 3. Upload the bluetooth-badusb.uf2 file to the RPI-RP2 drive by dragging and dropping the file.
