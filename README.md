@@ -40,5 +40,9 @@ GUI
 DELAY 100
 GUI r
 ```
-### 6. You can either create your own scripts or you can look up scripts on the internet. Beware that many scripts have different syntax than this version of duckyscript. You may need to modify some parts.
+### 6. You can either create your own scripts or you can find scripts on the internet. Beware that many scripts have different syntax than this version of duckyscript. You may need to modify some parts.
 ### 7. When you have connected to the badusb via bluetooth you only have to press capslock twice for it to start typing. When it is done executing your script you can press capslock twice again and it will retype your script.
+
+## Common problems
+### My files aren't being saved.
+You may need to eject the badusb storage device to save the files you created/modified. On most operating systems you right-click the storage device and press the eject button. 
