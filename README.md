@@ -46,3 +46,9 @@ GUI r
 ## Common problems
 ### My files aren't being saved.
 You may need to eject the badusb storage device to save the files you created/modified. On most operating systems you right-click the storage device and press the eject button. 
+## Compilation process
+1. Download the Arduino IDE
+2. Install the Earle Philhower arduino-pico core (https://github.com/earlephilhower/arduino-pico?tab=readme-ov-file#installation)
+3. Select the "IPv4 + IPv6 + Bluetooth" option under IP/Bluetooth Stack
+4. Select the "2MB (Sketch: 1MB, FS: 1MB)" option under Flash Size
+5. Either upload directly to your Pico with the upload button or press the "Export Compiled Binary" button under the "Sketch" tab
