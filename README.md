@@ -49,6 +49,8 @@ You may need to eject the badusb storage device to save the files you created/mo
 ## Compilation process
 1. Download the Arduino IDE
 2. Install the Earle Philhower arduino-pico core (https://github.com/earlephilhower/arduino-pico?tab=readme-ov-file#installation)
-3. Select the "IPv4 + IPv6 + Bluetooth" option under IP/Bluetooth Stack
-4. Select the "2MB (Sketch: 1MB, FS: 1MB)" option under Flash Size
-5. Either upload directly to your Pico with the upload button or press the "Export Compiled Binary" button under the "Sketch" tab
+3. Navigate to the "Tools" tab
+4. Select the Raspberry Pi Pico W board
+5. Select the "IPv4 + IPv6 + Bluetooth" option under "IP/Bluetooth Stack"
+6. Select the "2MB (Sketch: 1MB, FS: 1MB)" option under "Flash Size"
+7. Either upload directly to your Pico with the upload button or press the "Export Compiled Binary" button under the "Sketch" tab
