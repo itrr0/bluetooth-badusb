@@ -58,10 +58,10 @@ You may need to eject the badusb storage device to save the files you created/mo
 7. Either upload directly to your Pico with the upload button or press the "Export Compiled Binary" button under the "Sketch" tab
 
 ## Script syntax
-### STRING <text> - Types text. Maximum of 8192 bytes per line, beware of multibyte chars.
-### DELAY <time> - Waits <time> milliseconds before next command.
+### STRING \<text\> - Types text. Maximum of 8192 bytes per line, beware of multibyte chars.
+### DELAY \<time\> - Waits <time> milliseconds before next command.
 ### ENTER - Presses the enter key
 ### GUI - Presses the windows key
-### CTRL, ALT, GUI, SHIFT <key> - Modifier keys. Can be used in series like "CTRL ALT DELETE" (DELETE is not a modifier, it is a key.). Order does not matter. 
-### KEY <character> - Presses key associated with character and releases the key afterwards. Any modifier associated with the specified character is ignored. Check the keymap in the source code if you are unsure of the name of a key.
-### FILE <filename> - Executes specified file that is on the flash.
+### CTRL, ALT, GUI, SHIFT \<key\> - Modifier keys. Can be used in series like "CTRL ALT DELETE" (DELETE is not a modifier, it is a key.). Order does not matter. 
+### KEY \<character\> - Presses key associated with character and releases the key afterwards. Any modifier associated with the specified character is ignored. Check the keymap in the source code if you are unsure of the name of a key.
+### FILE \<filename\> - Executes specified file that is on the flash.
