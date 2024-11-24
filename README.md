@@ -1,5 +1,5 @@
 # Bluetooth badusb
-Only supports the swedish keyboard layout at the moment but feel free to add more
+Only supports the Swedish and the US keyboard layouts at the moment but feel free to add more
 
 Thank you Earle Philhower for the arduino-pico core for the rp2040 boards, without you this wouldn't be possible
 
@@ -25,8 +25,9 @@ MAX 1
 PAYLOAD payload1.txt
 NAME bluetooth-badusb
 BLUETOOTH 1
+LANGUAGE US 
 ```
-### 4. MIN is the shortest amount of time a keypress can take. MAX is the longest amount of time a keypress can take. Between every keypress there is a random delay between MIN and MAX. PAYLOAD is the payload that will be executed. NAME is what the badusb will show up as in a bluetooth menu. BLUETOOTH is whether it should connect via bluetooth or USB.
+### 4. MIN is the shortest amount of time a keypress can take. MAX is the longest amount of time a keypress can take. Between every keypress there is a random delay between MIN and MAX. PAYLOAD is the payload that will be executed. NAME is what the badusb will show up as in a bluetooth menu. BLUETOOTH is whether it should connect via bluetooth or USB. LANGUAGE sets the layout to US, SE for Swedish is also supported.
 ### 5. Type the following text in *payload1.txt*
 ```
 STRING 123
