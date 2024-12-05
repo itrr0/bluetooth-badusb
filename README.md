@@ -1,3 +1,8 @@
+This software is licensed under the Personal Use License (PUL).
+
+- You may use this software for personal, non-commercial purposes.
+- Redistribution, modification, and commercial use are not permitted.
+
 # Bluetooth badusb
 Only supports the Swedish and the US keyboard layouts at the moment but feel free to add more
 
