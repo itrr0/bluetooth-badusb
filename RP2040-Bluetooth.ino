@@ -555,7 +555,7 @@ void parseLine(char line[8192]) {
   if (!starts_with(line, "REM ")) {
     if (starts_with(line, "STRING ")) {
       char *text = line + 7;
-      uint8_t i = 0;
+      uint32_t i = 0;
       while (i < strlen(text)) {
         char key1[2] = { text[i], '\0' };
         char key2[3] = { text[i], text[i + 1], '\0' };
@@ -658,6 +658,7 @@ void runPayload() {
     parseLine(line);
   }
   file.close();
+  free(line);
 }
 
 uint8_t charToCode(char *c) {
