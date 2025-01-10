@@ -165,6 +165,7 @@ keyMapStruct keyMapSE[MAPSIZE] = {
   { 0, 10, "ENTER" },
   { 0, 177, "ESC" },
   { 0, 8, "BACKSPACE" },
+  { 0, 32, "SPACE" },
   { 0, 9, "TAB" },
   { 0, 209, "INSERT" },
   { 0, 210, "HOME" },
@@ -300,6 +301,7 @@ keyMapStruct keyMapUS[MAPSIZE] = {
   { 0, 10, "ENTER" },
   { 0, 177, "ESC" },
   { 0, 8, "BACKSPACE" },
+  { 0, 32, "SPACE" },
   { 0, 9, "TAB" },
   { 0, 209, "INSERT" },
   { 0, 210, "HOME" },
@@ -641,7 +643,7 @@ void runPayload() {
     return;
   }
   char line[8192];
-  int index = 0;
+  uint32_t index = 0;
 
   while (file.available()) {
     char c = file.read();
@@ -658,7 +660,6 @@ void runPayload() {
     parseLine(line);
   }
   file.close();
-  free(line);
 }
 
 uint8_t charToCode(char *c) {
